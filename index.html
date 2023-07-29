@@ -60,9 +60,15 @@
             
             <li>git clone {URL} : clone a repository to the working directory</li>
             
-            <li>git pull origin {branch} : syncs local {branch} clone with remote repository of {branch}</li>
+            <li>git pull origin {branch} : syncs local {branch} clone with remote repository of {branch}, {branch} = main is "rebasing" code</li>
 
             <li>git checkout [-b | --build] {branch} : switch to {branch}, -b flag to build new branch with name {branch}</li>
+
+            <li>git add [-a,A | --all] : stages changed files for later commit</li>
+
+            <li>git push [origin] {branch} : apply changes to {branch}</li>
+
+            <li>git commit [-m | --message] "{imperative commit message}"</li>
             
             <li>git revert {hash} : (careful!) version hash to revert branch to</li>
             
