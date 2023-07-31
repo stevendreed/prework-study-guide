@@ -1,6 +1,34 @@
 
 // script.js
 
-var topics = "HTML, CSS, Git, JavaScript";
+var topics = ["HTML", "CSS", "Git", "JavaScript"];
 
-console.log(topics); // console.log method, outputs arg
+for (let i = 0; i < topics.length; ++i)
+{
+    if(topics[i]) 
+    {
+        console.log(topics[i]);
+    }
+}
+
+/* if (topics === 'HTML')
+{
+    console.log("Let's study HTML!");
+}
+else if (topics === 'CSS')
+{
+    console.log("Let's study CSS");    
+}
+else if (topics === 'Git')
+{
+    console.log("Let's study Git!");
+}
+else if (topics === 'JavaScript')
+{
+    console.log("Let's study JavaScript");
+}
+else
+{
+    console.log("Error: please try again!");
+}
+*/
