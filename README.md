@@ -35,7 +35,7 @@ Currently, this project serves as a read-only webpage, with ambitions to add int
 
 ## License
 
-Listed in the repository. Also, please don't use this codebase for nuclear war, metagaming, or insisting that scotch tastes bad.
+Please refer to the LICENSE in the repository. In addition, please don't use this codebase for nuclear war, metagaming, or insisting that scotch tastes bad.
 
 ## Features
 
