@@ -1,34 +1,26 @@
 
 // script.js
 
-var topics = ["HTML", "CSS", "Git", "JavaScript"];
+var topicOptions = ["HTML", "CSS", "Git", "JavaScript"];
 
-for (let i = 0; i < topics.length; ++i)
+function listTopics(inputArray)
 {
-    if(topics[i]) 
+    for (let i = 0; i < inputArray.length; ++i)
     {
-        console.log(topics[i]);
+        if(inputArray[i]) 
+        {
+            console.log(inputArray[i]);
+        }
     }
 }
 
-/* if (topics === 'HTML')
+function selectTopic (inputArray)
 {
-    console.log("Let's study HTML!");
+    let topic = inputArray[Math.floor(Math.random() * inputArray.length)];
+    console.log(`Let's study ${topic}!`);
 }
-else if (topics === 'CSS')
-{
-    console.log("Let's study CSS");    
-}
-else if (topics === 'Git')
-{
-    console.log("Let's study Git!");
-}
-else if (topics === 'JavaScript')
-{
-    console.log("Let's study JavaScript");
-}
-else
-{
-    console.log("Error: please try again!");
-}
-*/
+
+listTopics(topicOptions);
+
+selectTopic(topicOptions);
+
